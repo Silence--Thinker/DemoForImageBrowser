@@ -1,2 +1,0 @@
-# DemoForImageBrowser
-ImageBrowser
