@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XJImageBrowserController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -36,7 +37,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    XJImageBrowserController *browser = [[XJImageBrowserController alloc] init];
+    [self.navigationController pushViewController:browser animated:YES];
 }
 
 - (NSArray *)dataList {
