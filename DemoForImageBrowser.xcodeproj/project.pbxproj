@@ -15,6 +15,10 @@
 		E87960531C3D217700EFDE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87960511C3D217700EFDE72 /* LaunchScreen.storyboard */; };
 		E879605E1C3D217700EFDE72 /* DemoForImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E879605D1C3D217700EFDE72 /* DemoForImageBrowserTests.m */; };
 		E87960691C3D217700EFDE72 /* DemoForImageBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E87960681C3D217700EFDE72 /* DemoForImageBrowserUITests.m */; };
+		E87960791C3D266A00EFDE72 /* XJImageBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87960781C3D266A00EFDE72 /* XJImageBrowserController.m */; };
+		E879607C1C3D26AD00EFDE72 /* XJImageBrowserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E879607B1C3D26AD00EFDE72 /* XJImageBrowserManager.m */; };
+		E879607F1C3D26C300EFDE72 /* XJImageBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = E879607E1C3D26C300EFDE72 /* XJImageBrowserView.m */; };
+		E87960821C3D276900EFDE72 /* XJBrowserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = E87960811C3D276900EFDE72 /* XJBrowserEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		E87960641C3D217700EFDE72 /* DemoForImageBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoForImageBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87960681C3D217700EFDE72 /* DemoForImageBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoForImageBrowserUITests.m; sourceTree = "<group>"; };
 		E879606A1C3D217700EFDE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87960771C3D266A00EFDE72 /* XJImageBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJImageBrowserController.h; sourceTree = "<group>"; };
+		E87960781C3D266A00EFDE72 /* XJImageBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJImageBrowserController.m; sourceTree = "<group>"; };
+		E879607A1C3D26AD00EFDE72 /* XJImageBrowserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJImageBrowserManager.h; sourceTree = "<group>"; };
+		E879607B1C3D26AD00EFDE72 /* XJImageBrowserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJImageBrowserManager.m; sourceTree = "<group>"; };
+		E879607D1C3D26C300EFDE72 /* XJImageBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJImageBrowserView.h; sourceTree = "<group>"; };
+		E879607E1C3D26C300EFDE72 /* XJImageBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJImageBrowserView.m; sourceTree = "<group>"; };
+		E87960801C3D276900EFDE72 /* XJBrowserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJBrowserEntity.h; sourceTree = "<group>"; };
+		E87960811C3D276900EFDE72 /* XJBrowserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJBrowserEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		E87960421C3D217700EFDE72 /* DemoForImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				E87960761C3D264C00EFDE72 /* Classes */,
 				E87960461C3D217700EFDE72 /* AppDelegate.h */,
 				E87960471C3D217700EFDE72 /* AppDelegate.m */,
 				E87960491C3D217700EFDE72 /* ViewController.h */,
@@ -138,6 +151,21 @@
 				E879606A1C3D217700EFDE72 /* Info.plist */,
 			);
 			path = DemoForImageBrowserUITests;
+			sourceTree = "<group>";
+		};
+		E87960761C3D264C00EFDE72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E879607A1C3D26AD00EFDE72 /* XJImageBrowserManager.h */,
+				E879607B1C3D26AD00EFDE72 /* XJImageBrowserManager.m */,
+				E87960771C3D266A00EFDE72 /* XJImageBrowserController.h */,
+				E87960781C3D266A00EFDE72 /* XJImageBrowserController.m */,
+				E879607D1C3D26C300EFDE72 /* XJImageBrowserView.h */,
+				E879607E1C3D26C300EFDE72 /* XJImageBrowserView.m */,
+				E87960801C3D276900EFDE72 /* XJBrowserEntity.h */,
+				E87960811C3D276900EFDE72 /* XJBrowserEntity.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87960821C3D276900EFDE72 /* XJBrowserEntity.m in Sources */,
 				E879604B1C3D217700EFDE72 /* ViewController.m in Sources */,
 				E87960481C3D217700EFDE72 /* AppDelegate.m in Sources */,
+				E87960791C3D266A00EFDE72 /* XJImageBrowserController.m in Sources */,
+				E879607C1C3D26AD00EFDE72 /* XJImageBrowserManager.m in Sources */,
 				E87960451C3D217700EFDE72 /* main.m in Sources */,
+				E879607F1C3D26C300EFDE72 /* XJImageBrowserView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +534,7 @@
 				E879606F1C3D217700EFDE72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E87960701C3D217700EFDE72 /* Build configuration list for PBXNativeTarget "DemoForImageBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +543,7 @@
 				E87960721C3D217700EFDE72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E87960731C3D217700EFDE72 /* Build configuration list for PBXNativeTarget "DemoForImageBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +552,7 @@
 				E87960751C3D217700EFDE72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
