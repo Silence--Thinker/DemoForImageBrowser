@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E84E604D1C3E156B003B88A4 /* XJCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E84E604C1C3E156B003B88A4 /* XJCollectionViewLayout.m */; };
 		E87960451C3D217700EFDE72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E87960441C3D217700EFDE72 /* main.m */; };
 		E87960481C3D217700EFDE72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E87960471C3D217700EFDE72 /* AppDelegate.m */; };
 		E879604B1C3D217700EFDE72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E879604A1C3D217700EFDE72 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E84E604B1C3E156B003B88A4 /* XJCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJCollectionViewLayout.h; sourceTree = "<group>"; };
+		E84E604C1C3E156B003B88A4 /* XJCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJCollectionViewLayout.m; sourceTree = "<group>"; };
 		E87960401C3D217700EFDE72 /* DemoForImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87960441C3D217700EFDE72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E87960461C3D217700EFDE72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				E879607B1C3D26AD00EFDE72 /* XJImageBrowserManager.m */,
 				E87960771C3D266A00EFDE72 /* XJImageBrowserController.h */,
 				E87960781C3D266A00EFDE72 /* XJImageBrowserController.m */,
+				E84E604B1C3E156B003B88A4 /* XJCollectionViewLayout.h */,
+				E84E604C1C3E156B003B88A4 /* XJCollectionViewLayout.m */,
 				E879607D1C3D26C300EFDE72 /* XJImageBrowserView.h */,
 				E879607E1C3D26C300EFDE72 /* XJImageBrowserView.m */,
 				E87960801C3D276900EFDE72 /* XJBrowserEntity.h */,
@@ -302,6 +307,7 @@
 			files = (
 				E87960821C3D276900EFDE72 /* XJBrowserEntity.m in Sources */,
 				E879604B1C3D217700EFDE72 /* ViewController.m in Sources */,
+				E84E604D1C3E156B003B88A4 /* XJCollectionViewLayout.m in Sources */,
 				E87960481C3D217700EFDE72 /* AppDelegate.m in Sources */,
 				E87960791C3D266A00EFDE72 /* XJImageBrowserController.m in Sources */,
 				E879607C1C3D26AD00EFDE72 /* XJImageBrowserManager.m in Sources */,

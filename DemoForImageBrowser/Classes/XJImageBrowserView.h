@@ -6,8 +6,9 @@
 //  Copyright © 2016年 silence. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface XJImageBrowserView : NSObject
+@interface XJImageBrowserView : UICollectionViewCell
+
 
 @end

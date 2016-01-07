@@ -24,7 +24,6 @@
     self.tableView.tableFooterView = [[UIView alloc] init];
 }
 
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataList.count;
 }
@@ -37,6 +36,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     XJImageBrowserController *browser = [[XJImageBrowserController alloc] init];
     [self.navigationController pushViewController:browser animated:YES];
 }
